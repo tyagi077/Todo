@@ -1,0 +1,88 @@
+body{
+   margin: 0%;
+   background-color: #131725;
+}
+.index-main-conatiner{
+    background-color: #131725;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    color: white;
+    padding: 0%;
+}
+.main-conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0%;
+    min-height: 70vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #202432;
+    padding: 11px 0px;
+    width: 400px;
+}
+.auth-container{
+    margin: 21px;
+    display: flex;
+    justify-content: center;
+    background-color: #202432;
+    padding: 11px 0px;
+    width: 400px;
+}
+.ListTodo{
+    margin-top: 6px;
+}
+.spanclass{
+    color: white;
+    width: 191px;
+    font-size: 16px;
+    margin-right: 7px;
+    margin-top: 4px;
+}
+.Ebutton{
+    color: white;
+    width: 47px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #DFA923;
+    background-color: #DFA923;
+}
+.Dbutton{
+    color: white;
+    width: 67px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #DA273D;
+    margin-left: 9px;
+    background-color: #DA273D;
+}
+.Taskdiv{   
+    padding: 11px;
+    background-color: #323848;
+    border-radius: 5px;
+    margin-top: 6px;
+    width: 320px;
+    display: flex;
+}
+.checkbox{
+    width: 24px;
+}
+nav{
+    color: white;
+    background-color: #131725;
+    display: flex;
+    justify-content: end;
+}
+nav button{
+    padding: 7px 11px;
+    margin: 12px 11px;
+    color: white;
+    background-color: #3C7AF4;
+    border: 1px solid #3C7AF4;;
+}

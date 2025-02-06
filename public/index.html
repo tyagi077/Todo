@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+    <script src="index.js"></script>
+    
+</head>
+<body>
+    <div class="index-main-conatiner">
+     <div class="auth-container">
+        <div class="To_do">
+            <div style="margin-top: 11px; display: flex; justify-content: center; color: white; font-size: 25px; font-weight: 800;">Sign-Up</div>
+            <div style="margin-top: 11px; ">
+                <input id="signup-username" style="display: flex; justify-content: center; background-color: #323848; width: 330px; height: 30px; border: 1px solid #323848;padding-left: 11px; color: white; border-radius: 5px; margin-bottom: 11px;" type="text" placeholder="Enter Your Username">
+                <input id="signup-password" style="display: flex; justify-content: center; background-color: #323848; width: 330px; height: 30px; border: 1px solid #323848;padding-left: 11px; color: white; border-radius: 5px; margin-bottom: 11px;" type="password" placeholder="Enter Your Password">
+                <div style=" display: flex; justify-content: center;"><button onclick="signup()" style="width: 340px; color: white; background-color:#3C7AF4; border-radius: 5px; border: 1px solid #3C7AF4; height: 40px;">Sign-Up</button></div>
+            </div>
+            <div class="ListTodo">
+            </div>
+        </div>    
+    </div>
+     <div class="auth-container" >
+        <div class="To_do">
+            <div style="margin-top: 11px; display: flex; justify-content: center; color: white; font-size: 25px; font-weight: 800;">Sign-In</div>
+            <div style="margin-top: 11px; ">
+                <input id="signin-username" style="display: flex; justify-content: center; background-color: #323848; width: 330px; height: 30px; border: 1px solid #323848;padding-left: 11px; color: white; border-radius: 5px; margin-bottom: 11px;" type="text" placeholder="Enter Your Username">
+                <input id="signin-password" style="display: flex; justify-content: center; background-color: #323848; width: 330px; height: 30px; border: 1px solid #323848;padding-left: 11px; color: white; border-radius: 5px; margin-bottom: 11px;" type="password" placeholder="Enter Your Password">
+                <div style=" display: flex; justify-content: center;"><button onclick="signin()" style="width: 340px; color: white; background-color:#3C7AF4; border-radius: 5px; border: 1px solid #3C7AF4; height: 40px;">Sign-In</button></div>
+            </div>
+        </div>    
+    </div>
+    <div>
+</body>
+</html>
