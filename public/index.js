@@ -81,30 +81,6 @@ function addNewTodo(){
      }
 }
 
-// function render(){
-//    // fetchdata() // muje chhaiye todo array 
-//     // document.querySelector(".ListTodo").innerHTML=""
-//     // for(let i =0;i<arr.length;i++){
-//     //     const div=createTodoComponent(arr[i].title,arr[i].checkbox_value,i)
-//     //     document.querySelector(".ListTodo").appendChild(div)
-//     // }
-//     // userArr=fetchdata() // muje chhaiye todo array 
-//     // console.log(userArr)
-//     // document.querySelector(".ListTodo").innerHTML=""
-//     // for(let i =0;i<userArr.length;i++){
-//     //     const div=createTodoComponent(userArr[i].title,userArr[i].checkbox_value,i)
-//     //     document.querySelector(".ListTodo").appendChild(div)
-//     // }
-//     fetchdata().then(userArr => {
-//         document.querySelector(".ListTodo").innerHTML = "";
-//         for (let i = 0; i < userArr.length; i++) {
-//             const div = createTodoComponent(userArr[i].title, userArr[i].checkbox_value, i);
-//             document.querySelector(".ListTodo").appendChild(div);
-//         }
-//     });
-    
-// }
-
 function render() {
     fetchdata().then(userArr => {
         document.querySelector(".ListTodo").innerHTML = "";
